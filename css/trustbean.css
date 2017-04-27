@@ -1,0 +1,50 @@
+
+
+.black-place {
+	  background: lightgray none repeat scroll 0 0;
+	  height: 95px;
+}
+
+.navbar-brand {
+    position: absolute;
+    padding: 20px;
+}
+.navbar img {
+  height: auto;
+  width: 100px;
+}
+body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+/*slider zone starts*/
+
+
+.slide {
+	background: #003666 none repeat scroll 0 0;
+	color: white;
+	height: 1000px;
+	width: auto;
+}
+.slide ul {}
+.slide ul li {
+	border: 1px solid;
+	height: 100px;
+	margin-right: 10px;
+	margin-top: 200px;
+	width: 100px;
+	line-height: 100px;	
+	font-size: 30px
+}
